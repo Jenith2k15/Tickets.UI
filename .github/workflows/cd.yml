@@ -1,7 +1,6 @@
 name: Angular
 
 env:
-  azure-webapp-name: tickets.ui
   bundle-name: angular-app
   node-version: 16.15.0
 
