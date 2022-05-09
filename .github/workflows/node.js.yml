@@ -25,6 +25,9 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
+    - name: Set SSL false
+      run: npm set strict-ssl false
+    
     - name: Install dependencies
       run: npm install -g npm@latest
     
